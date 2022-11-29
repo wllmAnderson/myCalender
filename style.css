@@ -1,0 +1,60 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  background-color: #000000;
+}
+
+.notearea {
+  background: transparent;
+  border: none;
+  resize: none;
+  color: #000000;
+  border-left: 1px solid black;
+  padding: 10px;
+}
+
+.notes {
+  white-space: pre-wrap;
+}
+
+.shift {
+  border-radius: 15px;
+}
+
+.row {
+  border-top: 1px solid white;
+}
+
+.hour {
+  background-color: #a6eb10;
+  color: #000000;
+  border-top: 1px dashed #000000;
+}
+
+.past {
+  background-color: #f40505;
+  color: white;
+}
+
+.present {
+  background-color: #f6f1f0;
+  color: rgb(8, 0, 0);
+}
+
+.future {
+  background-color: #3b05e9;
+  color: white;
+}
+
+.saveBtn {
+  border-left: 1px solid black;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #a6eb10;
+  color: white;
+}
+
+.saveBtn i:hover {
+  font-size: 20px;
+  transition: all 0.3s ease-in-out;
+}
